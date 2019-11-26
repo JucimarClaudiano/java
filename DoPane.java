@@ -18,9 +18,9 @@ public class DoPane
 		 //Empregando o controlde de repetição DO
 		 do{
 		 	String msg = "Hello World Java";
-		 	JOptionPane.showMessageDialog(null, msg + msint++ );
-		 	break; 
-		 }while (msint <= 5);
+		 	JOptionPane.showMessageDialog(null, msg + msint-- );
+		 	 
+		 }while (msint <= 5 && msint >= 0);
 
 
 		 //Empregando o comando de condição
