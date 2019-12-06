@@ -17,27 +17,32 @@ public class MainOpcoes
 	static void interUsuario()
 	{	
 		//Instaciando a variável opcao, armazenar a opcao do usuário
-		String opcao = "";
+		int opcao = 0;
 		//Instanciando a classe Scanner
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Digita s para sair ou c para continuar");
+			opcao = sc.nextInt();
+			System.out.println(opcao);
 
 
-		//Usando comando de repeticao
-		do{
+		//Usando comando de decisão
+		if(opcao == 0)
+		{
 
-			int cont = 0;
+			
 			System.out.println("Digite a nota do aluno");
 			//Declarando a variavel para receber a nota
 			double notas = sc.nextDouble();
-			cont++;
-			System.out.println("Digita s para sair ou c para continuar");
-			opcao = sc.next();
-			System.out.println(opcao);
-		}while(opcao == "s" );
+			
+			
+		}else
+		{
+			System.out.println("Fim do programa");
+		}
+	}
 
-
-	}	
+}	
 
 		
 	
-}
+
