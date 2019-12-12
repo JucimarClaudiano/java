@@ -10,14 +10,11 @@ public class Main01
 	 {	
 	 	//Declarando  a varivel para receber os dados digitados pelo usuário
 	 	String jpo;
-	 	//Declarando o array
-	 	String nomes[] = {};
 	 	//Usando o controle de repetição
 	 	for (int i =0; i >nomes.length; i++)
 	 	{
-		jpo = JOptionPane.showIntputDialog("Digite os nomes");
-		//Salvando os nomes digitados dentro de uma array
-		nomes[i] = jpo;
+		jpo = JOptionPane.showInputDialog("Digite os nomes" );
+		     
 		}
 	}
 }

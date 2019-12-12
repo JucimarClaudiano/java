@@ -12,7 +12,7 @@ public class ArrayScanner
 		Scanner sc = new Scanner(System.in);
 
 		//Instanciando o array para armazenar as palavras digitadas pelo o usuário e o contador
-		String[] palavras = new String [4];
+		String[] palavras = new String [ ];
 
 		//Usando comando if para predestinar o numero de palavras que o cliente vai digitar
 	
@@ -43,7 +43,7 @@ public class ArrayScanner
      		if(palavras[cont].equals(pal1) )
      		{
      	
-     			System.out.println("Palavra encontrada" + pal1);
+     			System.out.println("Palavra encontrada" + " " + pal1);
      			v=true;
      			break;
      		}
